@@ -1,4 +1,13 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  --sidebar-bg-color: #1b1525;
+  --icon-white: #fff;
+  --icon-blue: #4560af;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
