@@ -11,7 +11,7 @@
   text-align: center;
 }
 .nav-logo img {
-  width: 60%;
+  width: 80%;
 }
 .nav-options {
   display: flex;
@@ -56,12 +56,12 @@
     font-size: 1.3rem;
   }
   .nav-logo {
-    width: 20%;
+    width: 25%;
   }
   .nav-logo img {
     width: 95%;
   }
   .nav-options {
-    width: 80%;
+    width: 75%;
   }
 }

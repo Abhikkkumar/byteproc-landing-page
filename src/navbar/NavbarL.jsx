@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbarL.css";
-import Logo from "../images/Byteproc-logo-sub.png";
+// import Logo from "../images/Byteproc-logo-sub.png";
+import Logo from "../images/blue-logo.png";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 export default function NavbarL({ handleSidebar }) {
