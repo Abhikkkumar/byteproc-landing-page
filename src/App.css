@@ -6,6 +6,7 @@ body {
   --sidebar-bg-color: #1b1525;
   --icon-white: #fff;
   --icon-blue: #4560af;
+  --light-blue:#abdbe3;
 }
 .App{
   height: 200vh;

@@ -3,6 +3,8 @@ import "./App.css";
 import Home from "./Home.jsx";
 import NavbarL from "./navbar/NavbarL";
 import Sidebar from "./navbar/Sidebar";
+import BusinessPartner from "./BusinessPartner";
+import Numbers from "./Numbers";
 
 function App() {
   const one = "sidebar";
@@ -21,6 +23,8 @@ function App() {
       <NavbarL sidebarClass={sidebarClass} handleSidebar={handleSidebar} />
       <Sidebar sidebarClass={sidebarClass} handleSidebar={handleSidebar} />
       <Home sidebarClass={sidebarClass} handleSidebar={handleSidebar} />
+      <BusinessPartner />
+      <Numbers />
     </div>
   );
 }

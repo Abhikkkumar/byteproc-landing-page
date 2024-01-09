@@ -1,0 +1,39 @@
+.numbers {
+  --number-text: #42b9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 3%;
+}
+.n-container {
+ 
+  max-width: 250px;
+  min-height: 100px;
+  margin: 1% auto;
+  background-color: var(--light-blue);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.3% 1%;
+}
+.n-container .text {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.actualNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: 3.3rem;
+  font-weight: 500;
+  color: var(--icon-blue);
+}
+/* @media (max-width: 992px) {
+  .n-container {
+    width: 50%;
+    margin: 1% auto;
+  }
+} */
