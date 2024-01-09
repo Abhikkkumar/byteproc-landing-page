@@ -11,6 +11,10 @@ export default function Home({ sidebarClass, handleSidebar }) {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
             quia.
           </h1>
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quam
+            obcaecati atque illo laborum tenetur!
+          </h3>
         </div>
       </div>
     </div>
