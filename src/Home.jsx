@@ -1,23 +1,18 @@
-import React, { useState } from 'react'
-import NavbarL from './navbar/NavbarL';
-import Sidebar from './navbar/Sidebar';
+import React, { useState } from "react";
 
-export default function Home() {
-    const one = "sidebar";
-  const two = "sidebar hide-sidebar";
-  const [sidebarClass, setSidebarClass] = useState(one);
+import "./home.css";
 
-  function handleSidebar() {
-    if (sidebarClass === one) {
-      setSidebarClass(two);
-    } else {
-      setSidebarClass(one);
-    }
-  }
+export default function Home({ sidebarClass, handleSidebar }) {
   return (
-    <div>
-      <NavbarL sidebarClass={sidebarClass} handleSidebar={handleSidebar} />
-      <Sidebar sidebarClass={sidebarClass} handleSidebar={handleSidebar} />
+    <div className="home">
+      <div className="outer">
+        <div className="details">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            quia.
+          </h1>
+        </div>
+      </div>
     </div>
-  )
+  );
 }

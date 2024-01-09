@@ -5,7 +5,7 @@ import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 export default function NavbarL({ handleSidebar }) {
   return (
-    <div className="navbar-lg container-fluid">
+    <div className="navbar-lg ">
       <div className="nav-logo">
         <img src={Logo} alt="byteproc-logo" />
       </div>

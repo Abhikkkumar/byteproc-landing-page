@@ -4,6 +4,7 @@
   align-items: center;
   flex-wrap: nowrap;
   padding: 0.85rem 0.2rem;
+  background-color: var(--sidebar-bg-color);
 }
 .nav-logo {
   width: 30%;
@@ -18,24 +19,26 @@
   align-items: center;
   flex-wrap: nowrap;
   width: 65%;
-  transition: all ease-in-out 0.3s;
+ 
 }
 .nav-options a {
   font-size: 1.25rem;
-
   cursor: pointer;
+  transition: all ease-in-out 0.08s;
+  color: var(--icon-white) !important;
 }
 .nav-options > div:hover {
   padding: 0.4rem 0.2rem;
   font-size: 1.35rem;
   font-weight: 600;
-  color: var(--icon-blue);
+  color: var(--icon-blue) !important;
   border-bottom: 2px solid var(--icon-blue);
 }
 
 .hamburger-logo {
   font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 24;
   cursor: pointer;
+  color: var(--icon-white);
 }
 @media (max-width: 768px) {
   .nav-options {

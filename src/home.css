@@ -1,0 +1,23 @@
+.home {
+  min-height: 80vh;
+  /* width: 100vw; */
+  background-image: url("./images/byteproc-slider2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.outer {
+  min-height: 80vh;
+  background-color: black;
+  opacity: 0.5;
+}
+.details{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(240, 233, 233);
+    padding: 0 25%;
+}

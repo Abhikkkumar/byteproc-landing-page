@@ -3,9 +3,7 @@ import SidebarLogo from "../images/blue-logo.png";
 import "./sidebar.css";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
-export default function Sidebar({sidebarClass, handleSidebar}) {
-  
-
+export default function Sidebar({ sidebarClass, handleSidebar }) {
   return (
     <div className={sidebarClass}>
       <div className="sidebar-top">
