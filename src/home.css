@@ -22,3 +22,8 @@
     color: rgb(240, 233, 233);
     padding: 0 15%;
 }
+@media (max-width:768px){
+  .details{
+    padding: 0 2.5%;
+  }
+}
