@@ -1,5 +1,5 @@
 .home {
-  min-height: 80vh;
+  min-height: 70vh;
   /* width: 100vw; */
   background-image: url("./images/byteproc-slider2.png");
   background-repeat: no-repeat;
@@ -8,12 +8,12 @@
   background-attachment: fixed;
 }
 .outer {
-  min-height: 90vh;
+  min-height: 70vh;
   background-color: black;
   opacity: 0.5;
 }
 .details{
-    min-height: 90vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

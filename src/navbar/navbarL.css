@@ -29,7 +29,7 @@
 }
 .nav-options > div:hover {
   padding: 0.4rem 0.2rem;
-  font-size: 1.35rem;
+  /* font-size: 1.35rem; */
   font-weight: 600;
   color: var(--icon-blue) !important;
   border-bottom: 2px solid var(--icon-blue);
@@ -41,8 +41,12 @@
   color: var(--icon-white);
 }
 @media (max-width: 768px) {
+
   .nav-options {
     display: none;
+  }
+  .navbar-lg{
+    padding: .2rem;
   }
 }
 @media (min-width: 769px) {
